@@ -31,7 +31,7 @@ function app_tdwiki() {
 *
 * @access public
 */
-function saveParams($data=0) {
+function saveParams($data=1) {
  $p=array();
  if (IsSet($this->id)) {
   $p["id"]=$this->id;
